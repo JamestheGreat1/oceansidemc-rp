@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/potion_overlay",
+		"layer1": "item/potion"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/custom/drinks/water_bottle" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/custom/drinks/coke_bottle" },
+		{ "predicate": { "custom_model_data": 3}, "model": "item/custom/drinks/sprite_bottle" },
+		{ "predicate": { "custom_model_data": 4}, "model": "item/custom/drinks/vita_bottle" },
+		{ "predicate": { "custom_model_data": 5}, "model": "item/potion" }
+	]
+}
