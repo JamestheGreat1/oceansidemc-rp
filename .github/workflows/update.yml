@@ -11,7 +11,7 @@ jobs:
         git config --global user.name "JamestheGreat1"
         git config --global user.email "jamesp5297@gmail.com"
         git config pull.rebase false
-        git pull
+        git pull origin master
         rm -f oc-rp.zip
     - name: Archive Release
       uses: thedoctor0/zip-release@master
