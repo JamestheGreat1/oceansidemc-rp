@@ -10,7 +10,9 @@ jobs:
       run: |
         git config --global user.name "JamestheGreat1"
         git config --global user.email "jamesp5297@gmail.com"
-        git pull --all
+        git config pull.rebase false
+        git checkout main
+        git pull
         rm -f oc-rp.zip
     - name: Archive Release
       uses: thedoctor0/zip-release@master
